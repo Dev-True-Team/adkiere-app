@@ -66,6 +66,8 @@ const AuthShowcase: React.FC = () => {
     { enabled: sessionData?.user !== undefined },
   );
 
+  const { mutate: createHouse, data} = api.property.createHouse.useMutation();
+
   return (
     <div className="flex flex-col items-center justify-center gap-4">
       <p className="text-center text-2xl text-white">
@@ -78,6 +80,52 @@ const AuthShowcase: React.FC = () => {
       >
         {sessionData ? "Sign out" : "Sign in"}
       </button>
+      <button
+        className="rounded-full bg-white/10 px-10 py-3 font-semibold text-white no-underline transition hover:bg-white/20"
+        onClick={() => void createHouse({
+          propertyData: {
+            title: "test 2",
+            description: "test",
+            price: 9999999.69,
+            location: {
+              country: "test",
+              state: "test",
+              city: "test",
+              neighborhood: "test",
+              street: "test",
+              zipCode: "test",
+              latitude: 11,
+              longitude: 11,
+            },
+            propertyStatus: "SALE",
+            totalRods: 11,
+            totalConstructionRods: 11,
+            totalMeters: 11,
+            totalConstructionMeters: 11,
+          },
+          housingData: {
+            bedrooms: 11,
+            bathrooms: 11,
+            floors: 11,
+            year: 11,
+            remodeled: 11,
+            cistern: true,
+            water: true,
+            electricity: true,
+            gas: true,
+            furnished: true,
+            terrace: true,
+          },
+          garage: true,
+          pool: true,
+          garden: true,
+          houseType: "HOUSE",
+        })}
+      >
+        create house
+      </button>
+
+      {data && <p className="font-semibold text-white no-underline">{data.house && data.house.id}</p>}
     </div>
   );
 };

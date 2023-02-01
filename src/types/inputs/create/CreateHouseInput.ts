@@ -1,7 +1,7 @@
 import { HouseType, PropertyStatus } from "@prisma/client";
 import { z } from "zod";
 
-const CreateHouseInput = z.object({
+export const CreateHouseInput = z.object({
   propertyData: z.object({
     title: z.string(),
     description: z.string(),
@@ -40,5 +40,3 @@ const CreateHouseInput = z.object({
   garden: z.boolean(),
   houseType: z.nativeEnum(HouseType),
 });
-
-export { CreateHouseInput };

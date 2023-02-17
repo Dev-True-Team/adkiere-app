@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  
+    .btnMenu {
+        font-size: small;
+        background: transparent;
+        border: none;
+        padding: 4px;
+        margin: 6px;
+        color: black;
+        text-transform: uppercase;
+        position: relative;
+        transition: .5s ease;
+      }
+      
+      .btnMenu::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 0;
+        background-color: #3FC1CA;
+        transition: .5s ease;
+      }
+
+      .btnMenu:hover {
+        color: #3FC1CA;
+        transition-delay: .1s;
+      }
+ 
+      .btnMenu:hover::before {
+        width: 100%;
+        margin-bottom: 2px;
+      }
+      
+      .btnMenu::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 0;
+        width: 100%;
+        background-color: #3FC1CA;
+        transition: .4s ease;
+        z-index: -1;
+      }
+
+}
+/* 
+Azul Primario: #1D3354
+Azul Secundario: #21537E
+Azul Terciario: #1E699F
+Azul Cuaternario: #6998B7
+Azul Alerta: #3FC1CA
+Blanco: #FFFFFF
+Hueso: #EEEFEF
+Gris Claro: #6F6F6F
+Negro: #000000 */

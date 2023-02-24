@@ -25,6 +25,10 @@ module.exports = {
       negro: '#000000'
     },
     extend: {
+      backgroundImage: {
+        'edificioHome': "url('/edificio.jpg')",
+        'trapezio':"url(/trapezio.png)"
+      },
       keyframes: {
         loading: {
           '0%': { right: '-70%' },

@@ -20,7 +20,7 @@ const Navbar = () => {
   const handleOnClose = () => setMenuBuscar(false);
 
   return (
-   <div className='relative z-10'>
+   <div className='relative z-10 shadow-md'>
       <nav className='shadow-md w-full p-2 flex flex-row items-center justify-around'>
         <img className='h-18 w-20  hidden' src='/Logo-AdkiereBienesRaices.svg' alt="Logo"/>
         <div className="md:hidden">

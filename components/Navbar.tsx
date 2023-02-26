@@ -65,7 +65,7 @@ const Navbar = () => {
                 <Menu.Button className="btnMenu inline-flex w-full justify-center  text-blanco md:text-negro">
                   Venta
                   <ChevronDownIcon
-                    className="-mr-1 ml-2 h-5 w-5"
+                    className="-mr-1 ml-2 h-4 w-4"
                     aria-hidden="true"
                   />
                 </Menu.Button>
@@ -154,7 +154,7 @@ const Navbar = () => {
                 <Menu.Button className="btnMenu inline-flex w-full justify-center  text-blanco md:text-negro">
                   Renta
                   <ChevronDownIcon
-                    className="-mr-1 ml-2 h-5 w-5"
+                    className="-mr-1 ml-2 h-4 w-4"
                     aria-hidden="true"
                   />
                 </Menu.Button>
@@ -250,7 +250,7 @@ const Navbar = () => {
 
         <div>
           <button className="btnMenu" onClick={() => setMenuBuscar(true)}>
-            <MagnifyingGlassIcon className="h-8 w-8"></MagnifyingGlassIcon>
+            <MagnifyingGlassIcon className="h-7 w-7"></MagnifyingGlassIcon>
           </button>
         </div>
       </nav>

@@ -6,7 +6,7 @@
 @layer components {
   
     .btnMenu {
-        font-size: small;
+        font-size: 12px;
         background: transparent;
         border: none;
         padding: 4px;

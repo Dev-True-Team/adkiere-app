@@ -15,7 +15,9 @@ export const authOptions: NextAuthOptions = {
       return session;
     },
     signIn({ profile }) {
-      return profile !== undefined && profile.email === env.GOOGLE_ALLOWED_EMAIL;
+      return (
+        profile !== undefined && profile.email === env.GOOGLE_ALLOWED_EMAIL
+      );
     },
   },
   adapter: PrismaAdapter(prisma),
@@ -23,7 +25,7 @@ export const authOptions: NextAuthOptions = {
     GoogleProvider({
       clientId: env.GOOGLE_CLIENT_ID,
       clientSecret: env.GOOGLE_CLIENT_SECRET,
-    })
+    }),
   ],
 };
 

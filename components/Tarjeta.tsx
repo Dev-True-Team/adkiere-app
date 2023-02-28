@@ -20,13 +20,13 @@ interface TarjetaProps {
 
 const Tarjeta: React.FC<TarjetaProps> = ({ inmueble }) => {
   return (
-    <div className=" bg-hueso shadow-2xl">
+    <div className=" bg-hueso shadow-2xl flex flex-col w-max">
       <div key={inmueble.id} className="group relative">
-        <div className="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
+        <div className="min-h-80 aspect-w-1 aspect-h-1 lg:aspect-none w-full overflow-hidden rounded-t-md bg-gray-200 group-hover:opacity-75 lg:h-80 hover:cursor-pointer">
           <img
             src={inmueble.imageSrc}
             alt={inmueble.imageAlt}
-            className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+            className=" w-80 h-80 object-cover"
           />
         </div>
         <div className="flex flex-row p-2 bg-azulSecundario">
@@ -66,6 +66,7 @@ const Tarjeta: React.FC<TarjetaProps> = ({ inmueble }) => {
 
       </div>
     </div>
+    
   );
 };
 

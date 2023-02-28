@@ -1,0 +1,24 @@
+/* styles/custom-swiper.css */
+.swiper {
+  width:auto !important;
+  margin: 1px !important;
+}
+
+
+
+.swiper-slide{
+  width: fit-content !important;
+  @media screen and {(max-width: 425px;){
+    width: 100% !important;
+  }
+  }
+}
+
+/* Override default styles for pagination bullets */
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+    background-color: #000;
+    border-radius: 8px;
+  }

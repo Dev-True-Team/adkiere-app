@@ -6,6 +6,7 @@ import {Roboto} from '@next/font/google';
 import { api } from "../utils/api";
 
 import "../styles/globals.css";
+import '../styles/components/swiper.css';
 
 const roboto = Roboto({
   subsets:['latin'],

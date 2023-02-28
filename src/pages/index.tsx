@@ -8,6 +8,7 @@ import Footer from "../../components/Footer";
 import Seccion1 from "../../components/Seccion1";
 import Seccion2 from "../../components/Seccion2";
 
+
 const Home: NextPage = () => {
   return (
     <>

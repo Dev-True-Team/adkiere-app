@@ -77,8 +77,10 @@ const Seccion2 = () => {
   return (
     <div>
       
-        <div className="bg-white">
+        <div className="bg-triangulo bg-[length:100%_100%] bg-no-repeat shadow-2xl">
+          {/* Contenedor swiper de casas en venta */}
             <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+              <div className=' md:mx-20 mx-2'>
               <div className='flex flex-row items-baseline gap-4'>
                   <h2 className="text-2xl font-bold tracking-tight text-azulPrimario">Casas en venta</h2>
                   <a className='text-azulAlerta text-xs underline' href="">Ver más</a>
@@ -94,6 +96,24 @@ const Seccion2 = () => {
                 
               </div>
               </MySwiper>
+
+              {/* Contenedor swiper de casas en renta */}
+              <div className='flex flex-row items-baseline gap-4'>
+                  <h2 className="text-2xl font-bold tracking-tight text-azulPrimario">Casas en renta</h2>
+                  <a className='text-azulAlerta text-xs underline' href="">Ver más</a>
+              </div>
+              <MySwiper>
+              <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+              
+                {casas.map((inmueble)=>(
+                  <SwiperSlide key={inmueble.id}>
+                    <Tarjeta  inmueble={inmueble}></Tarjeta>
+                  </SwiperSlide>
+                ))}
+                
+              </div>
+              </MySwiper>
+              </div>
             </div>
         </div>
     </div>

@@ -33,9 +33,9 @@ const Navbar = () => {
             onClick={() => setNavbar(!navbar)}
           >
             {navbar ? (
-              <XMarkIcon className="-mr-1 ml-2 h-6 w-6"></XMarkIcon>
+              <XMarkIcon className="-mr-1 ml-2 h-6 w-6 text-azulPrimario"></XMarkIcon>
             ) : (
-              <Bars3Icon className="-mr-1 ml-2 h-5 w-5"></Bars3Icon>
+              <Bars3Icon className="-mr-1 ml-2 h-7 w-7 text-azulPrimario"></Bars3Icon>
             )}
           </button>
         </div>
@@ -250,7 +250,7 @@ const Navbar = () => {
 
         <div>
           <button className="btnMenu" onClick={() => setMenuBuscar(true)}>
-            <MagnifyingGlassIcon className="h-7 w-7"></MagnifyingGlassIcon>
+            <MagnifyingGlassIcon className="h-8 w-8 text-azulPrimario"></MagnifyingGlassIcon>
           </button>
         </div>
       </nav>

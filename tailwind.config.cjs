@@ -27,7 +27,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'edificioHome': "url('/edificio.jpg')",
-        'trapezio':"url(/trapezio.png)"
+        'trapezio':"url(/trapezio.png)",
+        'triangulo':"url(/seccion2.png)",
+        'diagonales':"url('/seccion3.png')",
       },
       keyframes: {
         loading: {
@@ -44,7 +46,10 @@ module.exports = {
         '2/3': '66.666667%',
         '1/4': '25%',
         '2/4': '50%',
-      }
+      },
+      scale: {
+        '-100': '-1',
+    }
     },
   },
   plugins: [],

@@ -7,6 +7,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Seccion1 from "../../components/Seccion1";
 import Seccion2 from "../../components/Seccion2";
+import Seccion3 from "../../components/Seccion3";
 
 
 const Home: NextPage = () => {
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Navbar ></Navbar>
       <Seccion1></Seccion1>
       <Seccion2></Seccion2>
+      <Seccion3></Seccion3>
       {/* <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
           

@@ -86,7 +86,7 @@ const Seccion2 = () => {
                   <a className='text-azulAlerta text-xs underline' href="">Ver más</a>
               </div>
               <MySwiper>
-              <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+              <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 justify-items-center">
               
                 {casas.map((inmueble)=>(
                   <SwiperSlide key={inmueble.id}>

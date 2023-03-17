@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import Link from 'next/link';
 import {
   ChevronDownIcon,
   MagnifyingGlassIcon,
@@ -54,10 +55,11 @@ const Navbar = () => {
               navbar ? "block p-12 md:p-0" : "hidden"
             }`}
           >
+            <Link href="/">
             <button className="btnMenu text-blanco md:text-negro">
               Inicio
             </button>
-
+            </Link>
             {/* DROPDOWN VENTAS */}
 
             <Menu as="div" className="relative inline-block text-left">
@@ -85,7 +87,7 @@ const Navbar = () => {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="Casa"
+                          href="/ventas/ventas"
                           className={classNames(
                             active
                               ? "bg-azulTerciario text-white"

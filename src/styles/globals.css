@@ -115,6 +115,49 @@
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
        }
+
+       
+       .pagination {
+        padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+       }
+       
+       .pageLink {
+        cursor: pointer;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
+       }
+       
+       /*  */
+       .pageItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        color: #1D3354;
+        border: 1.5px solid #1D3354;
+        border-radius: 0.5rem;
+        cursor: pointer;
+       }
+       
+       /* paginacion activa */
+       .pageItemActive {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border: 1.5px solid #1D3354;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        background-color:  #3FC1CA;
+       }
 }
 /* 
 Azul Primario: #1D3354

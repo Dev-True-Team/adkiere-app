@@ -16,7 +16,7 @@ const Seccion3 = () => {
         <div className='md:flex md:justify-center flex flex-col mt-5'>
         <div className='md:flex md:flex-row flex flex-col'>
           <div>
-            <img src="https://cdn-3.expansion.mx/c2/fc/90e67e2e44d898e2958a7a8949bd/terreno.jpg" alt="" className=' w-96 h-80 object-cover'/>
+            <img src="https://cdn-3.expansion.mx/c2/fc/90e67e2e44d898e2958a7a8949bd/terreno.jpg" alt="" className=' w-auto h-80 object-cover'/>
           </div>
           <div className='bg-azulTerciario p-10 md:w-3/4 w-auto flex flex-col items-center gap-4 md:shadow-md md:ml-4'>
               <h1 className=' text-white text-xl font-bold italic'> Titulo propiedad</h1>

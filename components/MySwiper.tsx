@@ -7,6 +7,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-coverflow';
 
 SwiperCore.use([Navigation]);
 
@@ -14,7 +15,7 @@ const MySwiper = ({ children, slides }: { children: any, slides?: number }) => {
   return (
     <Swiper
       modules={[Pagination]}
-      spaceBetween={50}
+      spaceBetween={30}
       slidesPerView={slides}
       navigation={{
         prevEl: '.swiper-button-prev',

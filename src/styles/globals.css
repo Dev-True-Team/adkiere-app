@@ -4,6 +4,15 @@
 
 
 @layer components {
+
+
+
+    /* Color de las flechas en swiper */
+    .swiper-button-prev,
+    .swiper-button-next{
+      color:#fff !important;
+    }
+
   
     .btnMenu {
         font-size: 12px;

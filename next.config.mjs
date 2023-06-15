@@ -14,5 +14,9 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true
+  }
 };
 export default config;

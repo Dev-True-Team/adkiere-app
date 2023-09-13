@@ -66,16 +66,16 @@ type Image {
 }
 
 type Property {
-  title                   String
-  propertyType            propertyType
-  description             String
-  price                   Float
-  location                Location
+  title                   String?
+  propertyType            propertyType?
+  description             String?
+  price                   Float?
+  location                Location?
   propertyStatus          PropertyStatus @default(SALE)
-  totalRods               Float
-  totalConstructionRods   Float
-  totalMeters             Float
-  totalConstructionMeters Float
+  totalRods               Float?
+  totalConstructionRods   Float?
+  totalMeters             Float?
+  totalConstructionMeters Float?
   images                  Image[]
 }
 

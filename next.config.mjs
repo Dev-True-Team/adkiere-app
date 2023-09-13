@@ -17,6 +17,9 @@ const config = {
   compiler: {
     // Enables the styled-components SWC transform
     styledComponents: true
-  }
+  },
+  images: {
+    domains: ["images.pexels.com"],
+  },
 };
 export default config;

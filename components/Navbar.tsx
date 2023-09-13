@@ -87,7 +87,7 @@ const Navbar = () => {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="/ventas/ventas"
+                          href="/ventas"
                           className={classNames(
                             active
                               ? "bg-azulTerciario text-white"

@@ -1,3 +1,180 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+
+
+
+    /* Color de las flechas en swiper */
+    .swiper-button-prev,
+    .swiper-button-next{
+      color:#fff !important;
+    }
+
+  
+    .btnMenu {
+        font-size: 12px;
+        background: transparent;
+        border: none;
+        padding: 4px;
+        margin: 6px;
+        color: black;
+        text-transform: uppercase;
+        position: relative;
+        transition: .5s ease;
+      }
+      
+      .btnMenu::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px;
+        width: 0;
+        background-color: #3FC1CA;
+        transition: .5s ease;
+      }
+
+      .btnMenu:hover {
+        color: #3FC1CA;
+        transition-delay: .1s;
+      }
+ 
+      .btnMenu:hover::before {
+        width: 100%;
+        margin-bottom: 2px;
+      }
+      
+      .btnMenu::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 0;
+        width: 100%;
+        background-color: #3FC1CA;
+        transition: .4s ease;
+        z-index: -1;
+      }
+
+
+      .callToActionBtn {
+        width: 200px;
+        padding: 10px 10px;
+        border: none;
+        font-size: 17px;
+        color: #fff;
+        border-radius: 7px;
+        letter-spacing: 4px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: 0.5s;
+        transition-property: box-shadow;
+      }
+      
+      .callToActionBtn {
+        background: rgb(0,140,255);
+        box-shadow: 0 0 25px rgb(0,140,255);
+      }
+      
+      .callToActionBtn:hover {
+        box-shadow: 0 0 5px rgb(0,140,255),
+                    0 0 25px rgb(0,140,255),
+                    0 0 50px rgb(0,140,255),
+                    0 0 100px rgb(0,140,255);
+      }
+
+      .btnTerrenos {
+        width: 6.5em;
+        height: 2.3em;
+        margin: 0.5em;
+        background: #1D3354 !important;
+        color: white;
+        border: none;
+        border-radius: 0.625em;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+       }
+       
+       .btnTerrenos:hover {
+        color: white;
+       }
+       
+       .btnTerrenos:after {
+        content: "";
+        background: #3FC1CA;
+        position: absolute;
+        z-index: -1;
+        left: -20%;
+        right: -20%;
+        top: 0;
+        bottom: 0;
+        transform: skewX(-45deg) scale(0, 1);
+        transition: all 0.5s;
+       }
+       
+       .btnTerrenos:hover:after {
+        transform: skewX(-45deg) scale(1, 1);
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+       }
+
+       
+       .pagination {
+        padding: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+       }
+       
+       .pageLink {
+        cursor: pointer;
+        width: -webkit-fill-available;
+        display: flex;
+        justify-content: center;
+       }
+       
+       /*  */
+       .pageItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        color: #1D3354;
+        border: 1.5px solid #1D3354;
+        border-radius: 0.5rem;
+        cursor: pointer;
+       }
+       
+       /* paginacion activa */
+       .pageItemActive {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border: 1.5px solid #1D3354;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        background-color:  #3FC1CA;
+       }
+}
+/* 
+Azul Primario: #1D3354
+Azul Secundario: #21537E
+Azul Terciario: #1E699F
+Azul Cuaternario: #6998B7
+Azul Alerta: #3FC1CA
+Blanco: #FFFFFF
+Hueso: #EEEFEF
+Gris Claro: #6F6F6F
+Negro: #000000 */

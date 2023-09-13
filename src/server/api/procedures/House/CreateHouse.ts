@@ -1,8 +1,9 @@
 import type { House } from "@prisma/client";
 import { CreateHouseInput } from "types/inputs/create";
-import { protectedProcedure } from "../../trpc";
+// import { protectedProcedure } from "../../trpc";
+import { publicProcedure } from "../../trpc";
 
-export const createHouseMutation = protectedProcedure
+export const createHouseMutation = publicProcedure
   .input(CreateHouseInput)
   .mutation(async ({ ctx, input }) => {
     const result: {
@@ -18,8 +19,8 @@ export const createHouseMutation = protectedProcedure
       const metaData = {
         updatedAt: new Date(),
         createdAt: new Date(),
-        createdBy: ctx.session.user.id,
-        updatedBy: ctx.session.user.id,
+        // createdBy: ctx.session.user.id,
+        // updatedBy: ctx.session.user.id,
         isInTrash: false,
         isDeleted: false,
       };

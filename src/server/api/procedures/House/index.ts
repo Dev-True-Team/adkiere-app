@@ -1,4 +1,4 @@
 import { createHouseMutation } from "./CreateHouse";
-import { getHousesQuery } from './GetHouses';
+import { getHousesQuery } from "./GetHouses";
 
 export { createHouseMutation, getHousesQuery };

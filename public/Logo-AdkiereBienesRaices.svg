@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687.06 487.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_102);
+      }
+
+      .cls-2 {
+        fill: #919191;
+        filter: url(#drop-shadow-2);
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: .8em;
+      }
+
+      .cls-3 {
+        fill: #6d8540;
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_121);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_110);
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_76);
+      }
+
+      .cls-8 {
+        fill: url(#Degradado_sin_nombre_112);
+      }
+
+      .cls-9 {
+        fill: url(#Degradado_sin_nombre_106);
+      }
+
+      .cls-10 {
+        fill: url(#Degradado_sin_nombre_87);
+      }
+
+      .cls-11 {
+        fill: url(#Degradado_sin_nombre_88);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#8c8b8b" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="Degradado_sin_nombre_102" data-name="Degradado sin nombre 102" cx="133.56" cy="166.38" fx="133.56" fy="166.38" r="394.75" gradientTransform="translate(176.6 28.21) rotate(84.65) scale(1 .33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1179b8"/>
+      <stop offset=".04" stop-color="#1179b8"/>
+      <stop offset=".4" stop-color="#1179b8"/>
+      <stop offset=".64" stop-color="#1076b5"/>
+      <stop offset=".81" stop-color="#106cac"/>
+      <stop offset=".96" stop-color="#0f5d9c"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_88" data-name="Degradado sin nombre 88" cx="376.28" cy="341.44" fx="376.28" fy="341.44" r="31.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1179b8"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_87" data-name="Degradado sin nombre 87" cx="376.5" cy="280.5" fx="376.5" fy="280.5" r="14.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1179b8"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_106" data-name="Degradado sin nombre 106" cx="470.27" cy="274.38" fx="470.27" fy="274.38" r="160.25" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#1179b8"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_112" data-name="Degradado sin nombre 112" cx="636.21" cy="339.88" fx="636.21" fy="339.88" r="46.88" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#1179b8"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_110" data-name="Degradado sin nombre 110" cx="548.88" cy="340.54" fx="548.88" fy="340.54" r="36.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1179b8"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_121" data-name="Degradado sin nombre 121" cx="162" cy="223.29" fx="135.41" fy="166.92" r="144.28" gradientTransform="translate(24.18 -200.28) rotate(3.3) scale(1 1.86)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffffc"/>
+      <stop offset=".03" stop-color="#d8ebf0"/>
+      <stop offset=".07" stop-color="#a9d5e3"/>
+      <stop offset=".12" stop-color="#80c0d7"/>
+      <stop offset=".16" stop-color="#5eafce"/>
+      <stop offset=".21" stop-color="#41a2c5"/>
+      <stop offset=".26" stop-color="#2c97bf"/>
+      <stop offset=".32" stop-color="#1c8fbb"/>
+      <stop offset=".39" stop-color="#138bb8"/>
+      <stop offset=".48" stop-color="#118ab8"/>
+      <stop offset=".63" stop-color="#117db8"/>
+      <stop offset=".77" stop-color="#1179b8"/>
+    </radialGradient>
+    <radialGradient id="Degradado_sin_nombre_76" data-name="Degradado sin nombre 76" cx="47.63" cy="343.5" fx="47.63" fy="343.5" r="44.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffffc"/>
+      <stop offset="0" stop-color="#fafcfa"/>
+      <stop offset=".05" stop-color="#bddae9"/>
+      <stop offset=".1" stop-color="#89bcda"/>
+      <stop offset=".15" stop-color="#5da4cd"/>
+      <stop offset=".19" stop-color="#3c91c4"/>
+      <stop offset=".23" stop-color="#2483bd"/>
+      <stop offset=".27" stop-color="#157bb9"/>
+      <stop offset=".3" stop-color="#1179b8"/>
+      <stop offset="1" stop-color="#0f5898"/>
+    </radialGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#8c8b8b" flood-opacity=".75"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#8c8b8b" flood-opacity=".75"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-4">
+    <polygon class="cls-1" points="238 0 238 411.8 289 383 289 350.36 326 383 361 383 312 341 356 300 319 300 286 326 285 25 238 0"/>
+    <g>
+      <polygon class="cls-11" points="361 299.09 391.56 299.09 391.56 383.79 361 383 361 299.09"/>
+      <ellipse class="cls-10" cx="376.5" cy="280.5" rx="15.5" ry="12.5"/>
+    </g>
+    <path class="cls-9" d="m459,299c-22-1-50,15-51,40.32-1,25.33,23,43.68,51,44.68s43.46-20.26,43.46-20.26l-22.46-7.74c-36,21-48.21-7.39-48.21-7.39h77.5c4.28-37.39-28.29-48.61-50.29-49.61Zm-26,33c5.62-9.04,15.57-14.42,26-14,14.33.57,22.19,11.79,23,13l-49,1Z"/>
+    <path class="cls-8" d="m636.39,297.39c-22-1-50,15-51,40.32-1,25.33,23,43.68,51,44.68s43.46-20.26,43.46-20.26l-22.46-7.74c-36,21-48.21-7.39-48.21-7.39h77.5c4.28-37.39-28.29-48.61-50.29-49.61Zm-26,33c5.62-9.04,15.57-14.42,26-14,14.34.58,22.19,11.79,23,13l-49,1Z"/>
+    <path class="cls-6" d="m545.44,299.09h-24.88v84.95l30.18-1.61v-57.44s6.26-10.99,16.26-4.99c3.63,2.18,10.21-20.91,10.21-20.91,0,0-21.44-7.03-28.32,4.94s-3.44-4.94-3.44-4.94Z"/>
+    <path class="cls-5" d="m179,56.38v250.92c-6.62-2.75-14.09-4.3-22-4.3-27.06,0-49,18.13-49,40.5s21.94,40.5,49,40.5c7.91,0,15.38-1.55,22-4.3v5.3l37,19.57V42c-12.33,4.79-24.67,9.59-37,14.38Zm-22.5,308.62c-11.87,0-21.5-9.63-21.5-21.5s9.63-21.5,21.5-21.5,21.5,9.63,21.5,21.5-9.63,21.5-21.5,21.5Z"/>
+    <path class="cls-7" d="m69.15,303l.36,9.73c-7.12-4.25-15.74-6.73-25.01-6.73-24.58,0-44.5,17.46-44.5,39s19.92,39,44.5,39c10.29,0,19.77-3.06,27.31-8.19l.16,4.45h23.29v-77.26h-26.11Zm-21.65,62c-11.87,0-21.5-9.63-21.5-21.5s9.63-21.5,21.5-21.5,21.5,9.63,21.5,21.5-9.63,21.5-21.5,21.5Z"/>
+  </g>
+  <text class="cls-2" transform="translate(96.18 452.35)"><tspan x="0" y="0">bienes raíces</tspan></text>
+  <rect class="cls-3" x="330.5" y="440.5" width="9" height="9" transform="translate(-216.54 367.22) rotate(-45)"/>
+</svg>

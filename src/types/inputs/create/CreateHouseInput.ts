@@ -6,6 +6,7 @@ export const CreateHouseInput = z.object({
     title: z.string(),
     description: z.string(),
     price: z.number(),
+    images: z.array(z.object({ url: z.string(),key:z.string() })),
     location: z.object({
       country: z.string(),
       state: z.string(),

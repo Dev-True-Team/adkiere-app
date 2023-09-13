@@ -14,5 +14,12 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true
+  },
+  images: {
+    domains: ["images.pexels.com"],
+  },
 };
 export default config;

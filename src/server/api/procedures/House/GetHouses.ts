@@ -20,6 +20,7 @@ export const getHousesQuery = publicProcedure
     try {
       const limit = input.limit ?? 50;
       const houses = await ctx.prisma.house.findMany({
+
         take: limit + 1,
         cursor: input.cursor ? { id: input.cursor } : undefined,
         orderBy: {
